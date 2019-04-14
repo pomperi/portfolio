@@ -1,8 +1,7 @@
+
+
 body {
     background: var(--yellow);
-    /* margin: auto;
-    text-align: center; */
-    /* background-image: linear-gradient(#d1bb50, #eece3f); */
 }
 
 a {
@@ -10,9 +9,6 @@ a {
     text-decoration: none;
 }
 
-
-/* d9c85e - gul */
-/* d26b5c - blekröd */
 
 p {
     font-size: 12pt;
@@ -29,10 +25,6 @@ main {
     border-radius: 4px;
     box-shadow: 2px 4px 6px var(--bgshadow);
     text-align: left;
-    position: relative;
-    /* left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, 0%); */
 }
 
 
@@ -40,16 +32,14 @@ main {
 pagetitle {
     padding: 0px 12px 0px 16px;
     font-size: 18pt;
-    /* font-size-adjust: inherit; */
     color: var(--white);
     font-family: "Georgia", serif;
     font-style: italic;
     vertical-align: middle;
-    /* text-decoration: underline; */
 }
 
 freetitle {
-    padding: 4px 36px 4px 10px;
+    padding: 4px 16px 4px 10px;
     background-color: var(--black);
     font-size: 16pt;
     font-size-adjust: inherit;
@@ -57,14 +47,10 @@ freetitle {
     font-family: "Georgia", serif;
     font-style: italic;
     position: relative;
-    /* left: -2px; */
     border-radius: 4px;
-    line-height: 42px;
-    /* left: -4px; */
-    /* border-radius: 12px; */
-    /* border: 8px solid var(--white); */
-    
+    line-height: 42px;    
 }
+
 subtitle {
     padding: 4px 36px 16px 20px;
     font-size: 13pt;
@@ -79,12 +65,8 @@ subtitle {
 
 
 img.thumbnail {
-    /* max-block-size: 20vw; */
-    /* padding: 2px; */
     box-shadow: 2px 4px 2px #808080;
-    /* border-radius: 8px; */
-    /* border: 1px solid #262626; */
-    /* max-height: 180px; */
+    max-height: 180px;
     margin: 2px 2px;
 
     max-width: 100%;
@@ -96,44 +78,46 @@ img.thumbnail {
     border: 2px solid #505050; */
 }
 
-img.button {
-    /* color: var(--yellow); */
-    vertical-align: middle;
-    /* size: 100%; */
+img.thumbnail:hover {
+    box-shadow: 2px 4px 7px var(--black);
+}
 
-    /* margin: 2px 2px; */
-    /* padding: 2px 36px 0px 6px; */
-    /* background-color: var(--white);
-    border-radius: 4px;
-    box-shadow: 2px 4px 6px #c2ac49; */
+
+img.button {
+    vertical-align: middle;
 }
 
 .row {
     display: block;
     flex-wrap: wrap;
-    /* flex: 25%; */
-    /* margin: 4px 4px; */
 }
 
 div.centeralign {
-    /* position: relative; */
     margin-left: auto;
 }
 
-#titlealign {
-    /* background-color: var(--white); */
+div.titlealign {
     vertical-align: middle;
     text-align: left;
     line-height: 70px;
 }
+
+
+
+
 
 titleframe {
     padding: 10px 4px 14px 4px;
     background-color: var(--black);
     border-radius: 4px;
     box-shadow: 2px 4px 6px var(--bgshadow);
-    /* border: 2px solid var(--black); */
 }
+
+titleframe:hover {
+    text-decoration: underline #d36757;
+}
+
+
 
 buttonframe {
     padding: 10px 4px 14px 4px;
@@ -152,8 +136,6 @@ buttonframe {
     --black:#312221;
     --white:#e5e8ef;
 }
-
-/* d1bb50 */
 
 
 
