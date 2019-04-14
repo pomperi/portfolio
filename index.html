@@ -3,17 +3,23 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 
         <title>Pontus Karlsson - Portfolio</title>
         <link rel="stylesheet" type="text/css" href="styles.css"/>
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
         <link rel="icon" href="favicon.ico"/>
 
-        <script src="http://code.jquery.com/jquery-2.0.0.js"></script>
-        <script src="swipebox-master/lib/jquery-2.0.3.js"></script>
+        <!-- <script src="http://code.jquery.com/jquery-2.0.0.js"></script> -->
+        <script src="swipebox-master/lib/jquery-2.1.0.min.js"></script>
         <script src="swipebox-master/src/js/jquery.swipebox.js"></script>
         <link rel="stylesheet" href="swipebox-master/src/css/swipebox.css">
+
+        <script type="text/javascript">
+            ;( function( $ ) {
+                $( '.swipebox' ).swipebox();            
+            } )( jQuery );
+        </script>
     </head>
     <body>
         <div style="text-align: center;">
@@ -109,11 +115,7 @@
 
         </div>  
 
-        <script type="text/javascript">
-            ;( function( $ ) {
-                $( '.swipebox' ).swipebox();            
-            } )( jQuery );
-        </script>
+        
 
     </body>
 </html>
