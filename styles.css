@@ -131,9 +131,11 @@ buttonframe {
 
 
 :root {
-    --yellow:#d8c152;
+    /* --yellow:#d8c152; */
+    --yellow:#e4cc55;
     --bgshadow:#c59c43;
-    --black:#312221;
+    /* --black:#312221; */
+    --black:#382625;
     --white:#e5e8ef;
 }
 
